@@ -7,7 +7,7 @@
     "react-dev": "webpack -d --watch",
     "server-dev": "nodemon server/index.js"
   },
-  "author": "Beth Johnson",
+  "author": "Alex Berman",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.23.1",
@@ -17,12 +17,13 @@
     "webpack": "^2.2.1"
   },
   "dependencies": {
-    "angular": "^1.6.3",
+    "@turf/helpers": "6.x",
+    "@turf/meta": "6.x",
+    "@turf/points-within-polygon": "^5.1.5",
+    "@turf/turf": "^5.1.6",
     "body-parser": "^1.17.2",
     "express": "^4.15.0",
     "jquery": "^3.1.1",
-    "mongoose": "^4.8.6",
-    "mysql": "^2.13.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
   }
